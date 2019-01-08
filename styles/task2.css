@@ -1,0 +1,52 @@
+* {
+    height: 98%;
+    margin: 0;
+    background-color: black;
+}
+
+.grid-container {
+    height: 100%;
+    margin: 1% 1% 1% 1%;
+    display: grid;
+    grid-gap: 17px;
+    grid-template-columns: 29% 29% 19% 19%;
+    grid-template-rows: 9% 9% 24% 24% 24%;
+}
+
+.grid-container div {
+    display: grid;
+    font-size: 40px;
+    align-content: center;
+    justify-content: center;
+    border-style: solid;
+    border-width: 5px;
+    border-color: blueviolet;
+}
+
+.lightblue {
+    background-color: cornflowerblue;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.gold {
+    background-color: gold;
+}
