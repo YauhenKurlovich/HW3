@@ -1,0 +1,54 @@
+.item1 {
+    grid-area: item1;
+    background-color: forestgreen;
+}
+
+.item2 {
+    grid-area: item2;
+    background-color: yellow;
+}
+
+.item3 {
+    grid-area: item3;
+    background-color: mediumturquoise;
+}
+
+.item4 {
+    grid-area: item4;
+    background-color: purple;
+}
+
+.item5 {
+    grid-area: item5;
+    background-color: palegreen;
+}
+
+.item6 {
+    grid-area: item6;
+    background-color: orangered;
+}
+
+* {
+    height: 98%;
+    margin: 0;
+}
+
+.grid-container div {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 60px;
+    color: white;
+}
+
+.grid-container {
+    height: 100%;
+    margin: 1% 1% 1% 1%;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-areas:
+        "item1 item1 item2"
+        "item3 item4 item4"
+        "item3 item5 item6";
+}
