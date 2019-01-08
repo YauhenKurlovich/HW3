@@ -1,0 +1,78 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 10px;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    border-radius: 8px;
+  }
+  
+
+.item1 {
+    background-color: black;
+}
+
+.item2 {
+    background-color: black;
+
+}
+
+.item3 {
+    background-color: gray;
+
+}
+
+.item4 {
+    background-color: black;
+
+}
+
+.item5 {
+    background-color: gray;
+
+}
+
+.item6 {
+    background-color: black;
+
+}
+
+.item7 {
+    background-color: gray;
+}
+
+.item8 {
+    background-color: black;
+}
+
+.item9 {
+    background-color: gray;
+    grid-column: 3 / 6;
+}
+
+.item10 {
+    background-color: gray;
+
+}
+
+.item11 {
+    background-color: black;
+}
+
+.item12 {
+    background-color: gray;
+}
+
+
+* {
+    height: 98%;
+    margin: 0;
+}
